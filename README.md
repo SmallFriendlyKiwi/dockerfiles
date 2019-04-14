@@ -1,2 +1,2 @@
 # dockerfiles
-Various Dockerfiles I use on the desktop and on servers
+This is a repo to hold various Dockerfiles for images I create
