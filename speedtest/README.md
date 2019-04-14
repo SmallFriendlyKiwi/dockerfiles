@@ -15,4 +15,4 @@ Yada, yada, yada
 
 To build:
 
-docker build -t smallfriendlykiwi/speedtest:latest .
+`docker build -t smallfriendlykiwi/speedtest:latest .`
