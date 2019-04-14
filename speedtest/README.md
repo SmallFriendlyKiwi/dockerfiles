@@ -1,5 +1,14 @@
-Ever wanted to speedtest a server, but didn't want to do funky tunnelling so you could hit up good ol' speedtest.net?  WORRY NO MORE.
+Dockerfile based on work at tianon/dockersiles/speedtest
+
+Updated to the latest version of speedtest-cli to support the --no-upload and --no-download switches
+
+Samples:
 
     docker run --rm --net=host tianon/speedtest
+    docker run --rm --net=host tianon/speedtest --version
+    docker run --rm --net=host tianon/speedtestdocker --list
+    docker run --rm --net=host tianon/speedtestdocker --server 2025
 
-We don't actually _require_ `--net=host`, but if we're wanting to test native performance (or use `--source some-specific-host-IP`) then we want direct access to the relevant connections without any overhead.
+Yada, yada, yada
+
+`--net=host` is not _required_, but if we're wanting to test native performance (or use `--source some-specific-host-IP`) then we want direct access to the relevant connections without any overhead.
