@@ -1,4 +1,4 @@
-Dockerfile based on work at tianon/dockersiles/speedtest
+Dockerfile based on work at tianon/dockerfiles/speedtest
 
 Updated to the latest version of speedtest-cli to support the --no-upload and --no-download switches
 
