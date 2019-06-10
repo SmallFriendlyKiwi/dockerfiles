@@ -8,11 +8,13 @@ To build:
 
 Samples:
 
+    run speedtest and delete container at the end
+
     docker run --rm --net=host sfk/speedtest
     docker run --rm --net=host sfk/speedtest --version
     docker run --rm --net=host sfk/speedtestdocker --list
     docker run --rm --net=host sfk/speedtestdocker --server 2025
 
-Yada, yada, yada
+Yada, yada, yada...
 
-`--net=host` is not _required_, but if we're wanting to test native performance then we want direct access to the relevant connections without any overhead.
+`--net=host` is not _required_, but if we're wanting to test native performance then we want direct access to the relevant interface without any overhead.
