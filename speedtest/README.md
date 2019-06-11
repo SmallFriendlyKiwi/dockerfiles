@@ -6,6 +6,8 @@ To build:
 
 `docker build -t sfk/speedtest:latest .`
 
+Where sfk is arbitrary.  It could be your name or alias that you use.
+
 Samples:
 
     run speedtest and delete container at the end
