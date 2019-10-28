@@ -14,8 +14,8 @@ Samples:
 
     docker run --rm --net=host sfk/speedtest
     docker run --rm --net=host sfk/speedtest --version
-    docker run --rm --net=host sfk/speedtestdocker --list
-    docker run --rm --net=host sfk/speedtestdocker --server 2025
+    docker run --rm --net=host sfk/speedtest --list
+    docker run --rm --net=host sfk/speedtest --server 2025
 
 Yada, yada, yada...
 
