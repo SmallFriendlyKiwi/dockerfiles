@@ -2,7 +2,7 @@ FROM alpine:latest
 
 RUN apk add --no-cache ca-certificates python3
 
-ENV SPEEDTEST_VERSION 2.1.1
+ENV SPEEDTEST_VERSION 2.1.2
 
 RUN pip3 install --upgrade pip
 
